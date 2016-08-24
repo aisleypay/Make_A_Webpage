@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE HTML>
+  <!--The DOCTYPE tells the browser what version of HTML this page is written in. In this case it is
+      HTML5 -->
+
+<!-- This current piece of text is a comment. Comments help the creator and other users read and understand the written code. The computer ignores comments. -->
+
+<html>
+  <head>
+      <!-- The information included between the head tags can be metadata, CSS, Javascript, and
+      the title element. Any information within the head element is not displayed on the webpage. -->
+    <title>Paisley's Notes on the Internet of Things</title>
+      <!-- The title element is the title of the webpage, and it shows up at the top of the Browser
+          window -->
+   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stage0.css">
+  </head>
+
+  <body>
+
+   <h1 class="maintitle">What the World Wide Web?!</h1>
+
+      <!-- The <h1> tage stands for 'heading 1'. Headings go all the way up to <h6>. They define HTML headings for sections with which they are associated with. As the number increases, the importance decreases. -->
+
+<!-- Navigation Bar -->
+
+    <nav>
+      <ul>
+          <li><a href="#Lesson1">Lesson 1</a></li>
+          <li><a href="#Lesson2">Lesson 2</a> </li>
+          <li><a href="#Lesson3">Lesson 3</a></li>
+      </ul>
+    </nav>
+
+<!--USEFUL LINKS on LEFT SIDE -->
+
+    <div class="main">
+         <div class="useful-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+              <li><a href="http://www.w3schools.com/html/default.asp">w3schools</a></li>
+              <li><a href="https://scotch.io">scotch.io</a></li>
+            </ul>
+        </div>
+
+<!--LESSON INFORMATION -->
+
+      <div class="lessonmain">
+
+  <!--LESSON 1 -->    
+        <div>
+          <h2 class="lessontitle" id="Lesson1">Lesson 1: Web and HTML Basics</h2> 
+            <div class="lessons">
+              <div class="sublesson1">
+
+                <!-- <div> is a block element that defines a section in a document. It allows the user to put stylistic information to the whole section rather than indivual lines of code. <span> is an inline element that also defines a section in the document -->
+
+                <h4 class = "sublessontitle">What Makes the Web and How Do I Internet?</h4>
+                  <div class = "sublesson">
+                    <p> The web is made up of all of the computers and their communication with each other.
+                      The major components are the user, the user's computer running a web
+                      browser, the Internet, and servers. When a person goes to a website like <a href="http://www.deviantart.com/">
+                      DeviantArt </a> the browser makes a request via the <em>Internet</em> to <em>Servers</em>.
+                      These requests are made using the protocal <em>HTTP</em>. The servers respond by
+                      locating and sending back the requested HTML document(s) to the user's
+                      computer where the web browser interprets the html document and displays it
+                      on the user's screen.  See
+                      <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/483298540923">
+                      Components of the Web</a> for more information. 
+                    </p>
+                  </div>
+              </div>
+
+              <div class="sublesson1">
+
+                <h4 class = "sublessontitle">HTML</h4>
+                <div class = "sublesson">
+                  <p> HTML stands for <b><em>Hypertext Markup Language.</em></b> HTML documents form the majority of the
+                  content on the web. HTML documents contain <em>text content</em> which describes "what you see"
+                  and <em>markup</em> which describes "how it looks".
+                  <p>
+
+                  <p> HTML markup is made out of HTML elements. Generally, HTML elements consist of an opening tag, content,
+                    and the closing tag. Void tags are tags that do not have a closing tag. These tags have no content and
+                    hence do not need a closing tag. Tags also contain attributes. Tag attributes allow the user to
+                    provide additional information about the element; tag attributes modify the default functionality of the
+                    subject tag.
+                  </p>
+
+                  <p> One other important facet of HTML elements is that they are classified as either <em>inline</em> or
+                  <em>block</em> elements. A block element starts on a new line and takes up the full width available.
+                  Think of the block element as having a customizable invisble box around its content. Inline elements,
+                  as the name suggests, take up only as much width as needed and do not start a new line for
+                  content.
+                  </p>
+                </div>
+                <!-- <br> is an example of a void tag and an inline element.-->
+              </div>
+
+              <div class="sublesson1">
+                <h4 class = "sublessontitle">Confounded Close-Minded Machines!</h4>
+                <div class = "sublesson">
+                  <p>Computers are literal. They do not make inferences or assumptions. Computer programming languages
+                    purposely limit ambiguity, but this sometimes conflicts with how the programmer interacts with
+                    the computer. This is why procedural thinking is necessary when writing code. Small mistakes that
+                    can easily be corrected by a human, are unforgivable to a computer and can cause huge problems
+                    in a program.
+                    </p>
+                </div>
+              </div>
+            </div>
+        </div>
+  <!-- Lesson 2 -->
+        <div>
+          <h2 class="lessontitle" id="Lesson2">Lesson 2: Creating a HTML Structured Document</h2>
+            <div class="lessons">
+              <div class="sublesson1">
+                <h4 class = "sublessontitle">HTML and the Home</h4>
+                <div class = "sublesson">
+                  <p>To understand the HTML document, first think of the stucture of a webpage. Think of a webpage as a house. The HTML document provides the structure of the house, CSS provides stylistic design features, and Javascript is the interactive elements of the house.</p>
+
+                  <p>HTML is the language of the web. Tags and their attributes are the words of HTML. HTML facilitates the browser in classifying different elements of the webpage; text, image, video, etc. Element position, font size, and other stylistic elements are addressed using CSS.The HTML document itself, is a tree-like structure of elements. The browser turns HTML tags into elements that form the tree-like structure of the webpage.  </p>
+                </div>
+              </div>
+
+              <div class="sublesson1">
+                <h4 class = "sublessontitle">Boxes on Boxes</h4>
+                <div class = "sublesson">
+                  <p>When approaching a new webpage design, it is important to remember that everything on the web is boxes. Boxify whatever design you recieve to make code writing easier and more succient. When reading an HTML document as text, indentations are indications of elements being nested into its corresponding box. 
+                  </p>
+                </div>
+              </div>
+
+              <div class="sublesson1">
+                <h4 class = "sublessontitle">Developer Tools and Text Editors</h4>
+                <div class = "sublesson">
+                  <p>Every browser has options for developers to look directly at the HTML and CSS structure of the subject webpage. In Google Chrome, it is called <em>Developer Tools</em>. The tool reflects the block/box like structure as well as the tree-like structure of the webpage's HTML text. </p>
+
+                  <p>Special text editors like Sublime Text and Atom are important tools for programmers. They make programming life a bit easier. For example, Sublime Text will automatically generate the closing HTML tag when the programmer writes the opening tag.</p>
+                </div>
+              </div>
+            </div>
+          <div>
+        </div>
+      </div>
+   <!---Lesson 3-->
+        <div>
+          <h2 class="lessontitle" id="Lesson3">Lesson 3: CSS Style and HTML Structure</h2>
+            <div class="lessons3">  
+              <div class="sublesson1">
+                <h4 class = "sublessontitle3">So What's CSS?</h4>
+                <div class="sublessonimage">
+                  <div class="CSSp1">
+                    <p>
+                      CSS is an acronym for <em>Cascading Style Sheets</em>.  Multiple style sheets can be referenced in a HTML document. You reference the syle sheet within the head portion of the html document Format is:
+                    </p>
+                  </div>
+                  <div class="image1">
+                    <img src="http://help.globalscape.com/help/cuteftp8/images/DB_NewDocumentTemplate_link.gif" alt = "HTML stylesheet syntax">      
+                  </div>
+                </div>
+              </div>
+
+              <div class="sublesson1">
+                <h4 class = "sublessontitle3">CSS Syntax</h4>
+                  <div class="sublesson">
+                    <p> Selector: Defines what elements of the page a partcular style will be applied to. For exampe, the user can specify all paragraphs be styled a certain way or they can select elements by class. There are several types of selectors: ID, class, tag, attribute, positional, and other psuedo selectors. Selectors can also be combined. See <a href="https://css-tricks.com/how-css-selectors-work/"> How CSS Selectors Work</a> for a detailed explanation.</p>
+                      <div class="image2">
+                        <img src="http://4.bp.blogspot.com/-fJJllaDor-8/UAYWxvbNJlI/AAAAAAAAAN0/FddaTmTWhdc/s640/CSS_Syntax.png" alt= "CSS Selector Syntax">
+                      </div>
+                  </div>
+                  
+              </div>  
+
+              <div class="sublesson1">
+                <h4 class = "sublessontitle3"> Box Model </h4>
+                  <div class="sublesson">
+                    <p> Harkening back to earlier in the lesson, boxes are everything on the Internet. To fully take control of your web design, an understanding of box on the web is crucial.
+
+                      <br><br>
+                      Content is the purely the image or text that appears on the website. It sits at the very center of box. The next layer of the box is the padding. It clears the area around the content and is effected by the background color of the  box. The next layer is the border of the box. It goes around the content and padding of the box. It is inherited from the color property of the box. The margin is the next layer. The margin is transparent. It is the space inbetween boxes. <strong>Remember that the size of the element is the sum of the border, paddings, and content. </strong>
+                    </p>
+
+                    <div class="image3">
+                      <img src="http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png" alt="Box Model">
+                    </div>
+                
+                    <p>Use the box-sizing:border-box property to make calculations of the element size include both border and padding together. This is useful because then the user can tweak the border and padding separately but keep the overall element size the same.
+                    </p>
+
+                    <p>Remember that sizing can be done in either percentage or pixels.</p>
+                  </div>
+
+              <div class="sublesson1">    
+                <h4 class = "sublessontitle3">Flexbox Layout</h4>
+                  <div class="sublesson">
+                    <p>The Flexbox Layout module aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic. <br><br>
+
+                    The main idea behind the flex layout is to give the container the ability to alter its items' width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space, or shrinks them to prevent overflow. See more information at <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> A Guide to Flexbox</a><br> Another good reference for Grid Layout is <a href="https://css-tricks.com/snippets/css/complete-guide-grid/"> here</a>.</p>
+                  </div>
+              </div>
+
+              <div class="sublesson1">  
+                <h4 class = "sublessontitle3">Browser Compatibility and Code Validation</h4>
+                  <div class="sublesson">
+                    <p>Remember to add <code> -webkit, -moz, -ms</code> to your CSS to have your webpage become compatible with older browsers</p>
+
+                    <p>It's important to validate your code to ensure that it can display correctly on all different browsers. To validate your HTML, use <a href= "http://validator.w3.org/#validate_by_input"> this website. </a> To validate your CSS, try <a href= "http://jigsaw.w3.org/css-validator/#validate_by_input"> this website</a> </p>
+                  </div>
+              </div>
+          </div>
+        </div>
+  <!-- End of Project -->  
+
+       <div class="sublesson1">
+          <h3 class="endingtitle">See you on the next project!</h3>
+          <div class="endingimage">
+            <img src="http://i279.photobucket.com/albums/kk121/theresaspears/lorainne20082007/icon/bye.gif" alt = "Cat waving goodbye">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+
+</html>

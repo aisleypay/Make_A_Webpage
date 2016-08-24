@@ -1,0 +1,236 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+body{
+  background-image: url("http://orig11.deviantart.net/e6a2/f/2011/279/e/1/lol_internet_by_mr_1-d4byu22.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-color: #8e304f;
+  background-size: 300px 300px;
+
+}
+
+nav {
+  margin: 0;
+  background-color: #F4DECB;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  text-align: center;
+
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #F4DECB;
+  font-family: 'Permanent Marker', cursive;
+  }
+
+nav a {
+display: block;
+padding: 0 10px;
+color: #8e304f;
+font-size: 20px;
+line-height: 30px;
+text-decoration: none;
+}
+
+nav a:hover { 
+  background-color: #000000; 
+}
+
+/* Dropdpwns - Hide Dropdowns by Default 
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; the height of the main nav 
+}
+
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+*/
+
+.useful-links{
+  background-color: #F4DECB;
+  border-radius: 25px;
+  padding-right: 30px;
+
+}
+
+.useful-links ul{
+   list-style-type: none;
+   padding-left: 20px;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.useful-links h4{
+  text-align: center;
+  margin: 10px -14px 10px 10px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.main{
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+
+}
+
+.lessonmain{
+  background-color: #F4DECB;
+  border-radius: 25px;
+  padding: 0px 10px 10px 10px;
+  max-width: 800px;
+  margin: 0px 0px 0px 30px;
+  
+}
+
+.maintitle{
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.lessontitle{
+  background-color: #F8EEE7;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  max-width: 80%;
+  text-transform: uppercase;
+  padding: 7px;
+  text-align: center;
+  margin-bottom: -25px;
+  margin-left: 70px;
+  border-radius: 5px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.sublessontitle{
+    background-color: #F8EEE7;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px;
+    text-align: center;
+    max-width: 90%;
+    margin-bottom: -4px;
+    margin-left: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.lessons{
+  background-color: #F4DECB;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 15px;
+  display: -webkit-flex;
+  display: flex;
+  border: solid #94618E;
+  border-top-width: 0px;
+}
+
+
+.sublesson{
+  background-color: #e7a61a;
+  border-radius: 20px;
+  -webkit-box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  -moz-box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  padding: 15px;
+  font-size: 13px;
+}
+
+.sublesson1{
+  margin-right: 8px;
+  flex-basis: 33%;
+  margin: 0px 8px 0px 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sublessonimage{
+  display: flex;
+  background-color: #e7a61a;
+  border-radius: 20px;
+  -webkit-box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  -moz-box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  box-shadow: 8px 7px 5px -4px rgba(0,0,0,0.41);
+  padding: 4px;
+  font-size: 13px;
+}
+
+.lessons3{
+  background-color: #F4DECB;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 15px;
+  display: -webkit-flex;
+  display: flex;
+  border: solid #94618E;
+  border-top-width: 0px;
+  flex-direction: column;
+}
+
+
+.image1 img{
+  max-width: 90%;
+  max-height: 100%;
+  border-radius: 15px;
+  margin-left: 15px;
+
+}
+
+.image1{
+  flex: 1;
+}
+
+.image2 img{
+  max-width: 50%;
+  max-height: 100%;
+  border-radius: 15px;
+  margin: 0px 0px 0px 175px;
+}
+
+.image3 img{
+  max-width: 50%;
+  max-height: 100%;
+  border-radius: 15px;
+  margin-left: 175px;
+}
+
+.CSSp1{
+  margin-left: 20px;
+  flex: 1;
+}
+
+.sublessontitle3{
+  background-color: #F8EEE7;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 7px;
+  text-align: center;
+  max-width: 90%;
+  margin-bottom: -4px;
+  margin-left: 45px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.endingtitle{
+  text-align: center;
+ }
+
+ .endingimage{
+  margin-left: 325px;
+ }
